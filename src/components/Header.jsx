@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { assets } from "../../assets/assets";
 import { AppContent } from "../context/AppContext";
-import userModel from "../../../server/models/userModel";
 
 const Header = () => {
   const { userData } = useContext(AppContent);
